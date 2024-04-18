@@ -162,7 +162,7 @@ const Manager = () => {
                                         </span></span></span>
                                         </td>
                                         <td className="px-3 py-4 bg-gray-50 dark:bg-gray-800">
-                                            <span className='flex items-center justify-between'><span>{item.password}</span>
+                                            <span className='flex items-center justify-between'><span>{"*".repeat(item.password.length)}</span>
                                                 <span className="cpybtn cursor-pointer" id onClick={() => copyText(item.password)} ><span class="material-symbols-outlined">
                                                     content_copy
                                                 </span></span></span>
